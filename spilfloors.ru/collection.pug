@@ -1,0 +1,342 @@
+mixin typeOfMaterial(t, p)
+	section.typeOfMaterial.section
+		.container
+			.section-title
+				h2!= t
+				p!= p
+			.typeOfMaterial__inner
+				.row
+					block
+mixin typeOfMaterial-item(c, l, t, i, i1, i2, i3, p)
+	if c
+		.col-4
+			a.typeOfMaterial-item(href=`${l}`)
+				img.typeOfMaterial-item__bg-img(src=`img/${i}`, alt="")
+				.typeOfMaterial-item__hoverBlock
+					h3!= t
+					.typeOfMaterial-item__imgs
+						img(src=`img/${i1}`, alt="")
+						img(src=`img/${i2}`, alt="")
+						img(src=`img/${i3}`, alt="")
+					.typeOfMaterial-item__price!= p
+	else
+		a.typeOfMaterial-item(href=`${l}`)
+			img.typeOfMaterial-item__bg-img(src=`img/${i}`, alt="")
+			.typeOfMaterial-item__hoverBlock
+				h3!= t
+				.typeOfMaterial-item__imgs
+					img(src=`img/${i1}`, alt="")
+					img(src=`img/${i2}`, alt="")
+					img(src=`img/${i3}`, alt="")
+				.typeOfMaterial-item__price!= p
+
+
+doctype html
+html(lang='ru-RU')
+	
+	head
+		meta(http-equiv='content-type' content='text/html;charset=UTF-8')
+		// /Added by HTTrack
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		link(rel='profile' href='http://gmpg.org/xfn/11')
+		link(rel='pingback' href='xmlrpc.php')
+		title Инженерная доска из дуба | купить у производителя Спил Флорс
+		// All In One SEO Pack 3.7.1[248,255]
+		meta(name='description' content='Собственный полный цикл производства в России. 3 года гарантии. Более 15 000 квадратов доски в наличии. Работаем с 2008 года.')
+		meta(name='yandex-verification' content='f1ba414ae239b007')
+		script.aioseop-schema(type='application/ld+json').
+			{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://spilfloors.ru/#organization","url":"https://spilfloors.ru/","name":"","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://spilfloors.ru/#logo","url":"https://spilfloors.ru/wp-content/uploads/cropped-spil-logo.png","caption":""},"image":{"@id":"https://spilfloors.ru/#logo"}},{"@type":"WebSite","@id":"https://spilfloors.ru/#website","url":"https://spilfloors.ru/","name":"","publisher":{"@id":"https://spilfloors.ru/#organization"}},{"@type":"WebPage","@id":"https://spilfloors.ru#webpage","url":"https://spilfloors.ru","inLanguage":"ru-RU","name":"","isPartOf":{"@id":"https://spilfloors.ru/#website"},"breadcrumb":{"@id":"https://spilfloors.ru#breadcrumblist"},"description":"Собственный полный цикл производства в России. 3 года гарантии. Более 15 000 квадратов доски в наличии. Работаем с 2008 года.","datePublished":"2020-02-10T14:32:42+03:00","dateModified":"2021-01-27T07:51:13+03:00","about":{"@id":"https://spilfloors.ru/#organization"}},{"@type":"BreadcrumbList","@id":"https://spilfloors.ru#breadcrumblist","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://spilfloors.ru/","url":"https://spilfloors.ru/","name":"Инженерная доска из дуба | купить у производителя Спил Флорс"}}]}]}
+		link(rel='canonical' href='index.html')
+		// All In One SEO Pack
+		link(rel='dns-prefetch' href='http://api-maps.yandex.ru/')
+		link(rel='dns-prefetch' href='http://fonts.googleapis.com/')
+		link(rel='dns-prefetch' href='http://use.fontawesome.com/')
+		link(rel='dns-prefetch' href='http://cdnjs.cloudflare.com/')
+		link(rel='dns-prefetch' href='http://s.w.org/')
+		link(rel='alternate' type='application/rss+xml' title=' » Лента' href='feed/index.html')
+		link(rel='alternate' type='application/rss+xml' title=' » Лента комментариев' href='comments/feed/index.html')
+		//- script(type='text/javascript').
+		//- 	window._wpemojiSettings = { "baseUrl": "https:\\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/spilfloors.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2" } };
+		//- 	/*! This file is auto-generated */
+		//- 	!function (e, a, t) { var r, n, o, i, p = a.createElement("canvas"), s = p.getContext && p.getContext("2d"); function c(e, t) { var a = String.fromCharCode; s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0); var r = p.toDataURL(); return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL() } function l(e) { if (!s || !s.fillText) return !1; switch (s.textBaseline = "top", s.font = "600 32px Arial", e) { case "flag": return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447])); case "emoji": return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340]) }return !1 } function d(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (i = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, o = 0; o < i.length; o++)t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji))) }(window, document, window._wpemojiSettings);
+		style(type='text/css').
+			img.wp-smiley,
+			img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+			}
+		link#sb_instagram_styles-css(rel='stylesheet' href='wp-content/plugins/instagram-feed/css/sbi-styles.min21bb.css?ver=2.5.4' type='text/css' media='all')
+		link#wp-block-library-css(rel='stylesheet' href='wp-includes/css/dist/block-library/style.min7661.css?ver=5.4.2' type='text/css' media='all')
+		link#contact-form-7-css(rel='stylesheet' href='wp-content/plugins/contact-form-7/includes/css/stylesb62d.css?ver=5.1.6' type='text/css' media='all')
+		link#tt-easy-google-fonts-css(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arsenal%3Aregular%2C700&subset=latin%2Call%2Ccyrillic&ver=5.4.2' type='text/css' media='all')
+		link#font-awesome-free-css(rel='stylesheet' href='../use.fontawesome.com/releases/v5.2.0/css/all7661.css?ver=5.4.2' type='text/css' media='all')
+		link#skt-charity-font-style-css(rel='stylesheet' href='wp-content/themes/spilfloors/css/fonts7661.css?ver=5.4.2' type='text/css' media='all')
+		link#skt-charity-basic-style-css(rel='stylesheet' href='wp-content/themes/spilfloors/style7661.css?ver=5.4.2' type='text/css' media='all')
+		link#skt-charity-editor-style-css(rel='stylesheet' href='wp-content/themes/spilfloors/editor-style7661.css?ver=5.4.2' type='text/css' media='all')
+		link#skt-charity-responsive-style-css(rel='stylesheet' href='wp-content/themes/spilfloors/css/responsive7661.css?ver=5.4.2' type='text/css' media='all')
+		link#font-awesome-css(rel='stylesheet' href='../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min7661.css?ver=5.4.2' type='text/css' media='all')
+		//- link#fancybox-css(rel='stylesheet' href='wp-content/plugins/easy-fancybox/css/jquery.fancybox.min4271.css?ver=1.3.24' type='text/css' media='screen')
+		link(rel='https://api.w.org/' href='wp-json/index.html')
+		link(rel='EditURI' type='application/rsd+xml' title='RSD' href='xmlrpc0db0.php?rsd')
+		link(rel='wlwmanifest' type='application/wlwmanifest+xml' href='wp-includes/wlwmanifest.xml')
+		meta(name='generator' content='WordPress 5.4.2')
+		link(rel='shortlink' href='index.html')
+		link(rel='alternate' type='application/json+oembed' href='wp-json/oembed/1.0/embed1d81.json?url=https%3A%2F%2Fspilfloors.ru%2F')
+		link(rel='alternate' type='text/xml+oembed' href='wp-json/oembed/1.0/embedac95?url=https%3A%2F%2Fspilfloors.ru%2F&format=xml')
+		link(rel='icon' href='wp-content/uploads/cropped-favicon-32x32.png' sizes='32x32')
+		link(rel='icon' href='wp-content/uploads/cropped-favicon-192x192.png' sizes='192x192')
+		link(rel='apple-touch-icon' href='wp-content/uploads/cropped-favicon-180x180.png')
+		meta(name='msapplication-TileImage' content='https://spilfloors.ru/wp-content/uploads/cropped-favicon-270x270.png')
+		style#tt-easy-google-font-styles(type='text/css').
+			p {
+			font-family: 'Arsenal';
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 1.3;
+			}
+			h1 {
+			font-family: 'Arsenal';
+			font-size: 28px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 0.9;
+			}
+			h2 {
+			font-family: 'Arsenal';
+			font-size: 19px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 1;
+			}
+			h3 {
+			font-family: 'Arsenal';
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 400;
+			}
+			h4 {
+			font-family: 'Arsenal';
+			font-size: 21px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 0.9;
+			}
+			h5 {}
+			h6 {}
+		link(rel='stylesheet' href='custom-style.css' type='text/css')
+
+		//- // Google Tag Manager
+		//- script.
+		//- 	(function (w, d, s, l, i) {
+		//- 	w[l] = w[l] || []; w[l].push({
+		//- 	'gtm.start':
+		//- 	new Date().getTime(), event: 'gtm.js'
+		//- 	}); var f = d.getElementsByTagName(s)[0],
+		//- 	j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+		//- 	'../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		//- 	})(window, document, 'script', 'dataLayer', 'GTM-MF6HL7M');
+		//- // End Google Tag Manager
+		//- script(type='text/javascript').
+		//- 	(function () { var N = this; N.N2_ = N.N2_ || { r: [], d: [] }, N.N2R = N.N2R || function () { N.N2_.r.push(arguments) }, N.N2D = N.N2D || function () { N.N2_.d.push(arguments) } }).call(window); if (!window.n2jQuery) { window.n2jQuery = { ready: function (cb) { console.error('n2jQuery will be deprecated!'); N2R(['$'], cb) } } } window.nextend = { localization: {}, ready: function (cb) { console.error('nextend.ready will be deprecated!'); N2R('documentReady', function ($) { cb.call(window, $) }) } };
+
+	body.home.page-template.page-template-landing-page.page-template-landing-page-php.page.page-id-27.wp-custom-logo
+		// Google Tag Manager (noscript)
+		noscript
+			iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-MF6HL7M' height='0' width='0' style='display:none;visibility:hidden')
+		// End Google Tag Manager (noscript)
+		.header
+			.container
+				.fx_between.fx_align-center
+					.header-row
+						.header-col-big
+							p(style='color:#b57d4f;')
+								| Адрес шоурума
+							p
+							p г.Химки, микр. Сходня, ул.Некрасова, д2
+						.header-col-big
+							a(href='tel:+74994441641' style='color:#b57d4f;') +7 (499) 444-16-41
+							a(href='mailto:info@spilfloors.ru') info@spilfloors.ru
+							p 9:00 - 18:00 (пн-пт)
+						.header-col-big.slogan
+							p
+								| Инженерная доска
+								br
+								| и термодерево
+								br
+								| от производителя
+					a.custom-logo-link(href='index.html' rel='home')
+						img.custom-logo(width='120' height='120' src='wp-content/uploads/cropped-spil-logo.png' alt='')
+					.header-row
+						.header-col-big
+							.menu-menyu-yakorej-container
+								ul#menu-menyu-yakorej.menu
+									li#menu-item-1357.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-1357
+										a(href='kto-my/index.html') Кто мы
+									li#menu-item-18.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-18
+										a(target='_blank' rel='noopener noreferrer' href='SPILFLOORS_price.pdf') Скачать прайс
+									li#menu-item-1358.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-1358
+										a(href='kontaktnaya-informacziya/index.html') Наши контакты
+						.header-col-menu
+							.menu-menyu-stranicz-container
+								ul#menu-menyu-stranicz.menu
+									li#menu-item-41.menu-item.menu-item-type-taxonomy.menu-item-object-category.menu-item-41
+										a(href='category/stati/index.html') Статьи
+									li#menu-item-80.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-80
+										a(href='proekty/index.html') Проекты
+									li#menu-item-25.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-25
+										a(href='partnyoram/index.html') Партнёрам
+						.header-col
+							a(href='https://www.instagram.com/spil_floors/')
+								p(style='color:#b57d4f;') instagram
+								br
+								i.fa.fa-instagram(aria-hidden='true')
+						.header-col
+							p(style='color:#b57d4f;') RU
+							br
+							span
+								i.fa.fa-angle-down(aria-hidden='true')
+							a.language(href='index.html') EN
+		.header-mobile-v2
+			.header-mobile-v2__logo
+				a(href='index.html')
+					img(src='wp-content/themes/spilfloors/images/logo_mobile.png' alt='')
+			.header-mobile-v2__soc
+				a.header-mobile-v2__soc__item.header-mobile-v2__soc__item__ins(href='https://www.instagram.com/spil_floors/' target='_blank')
+			.header-mobile-v2__right
+				.header-mobile-v2__contacts
+					.header-mobile-v2__contacts__item
+						a.header-mobile-v2__contacts__item__or(href='tel:+74994441641')
+							| +7 (499) 444-16-41
+					.header-mobile-v2__contacts__item
+						a(target='_blank' href='mailto:info@spilfloors.ru') info@spilfloors.ru
+					.header-mobile-v2__contacts__item
+						| 9:00 - 18:00 (пн-пт)
+				.header-mobile-v2__menu
+					span.header-mobile-v2__menu__icon(onclick="jQuery('.header-mobile-v2__menu__popup').toggleClass('header-mobile-v2__menu__popup--stage-open'); return false;" href='#')
+						span
+						span
+						span
+						span
+			.header-mobile-v2__menu__popup
+				ul.header-mobile-v2__menu__list
+					li#menu-item-34.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-27.current_page_item.menu-item-34
+						a(href='index.html' aria-current='page') Дуб
+					li#menu-item-35.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-35
+						a(href='termoderevo/index.html') Термодерево
+					li#menu-item-36.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-36
+						a(href='orex/index.html') Орех
+				.header-mobile-v2__menu__line
+				ul.header-mobile-v2__menu__list.header-mobile-dark
+					li.menu-item.menu-item-type-taxonomy.menu-item-object-category.menu-item-41
+						a(href='category/stati/index.html') Статьи
+					li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-80
+						a(href='proekty/index.html') Проекты
+					li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-25
+						a(href='partnyoram/index.html') Партнёрам
+				.header-mobile-v2__popup__contacts
+					| Химки, м. Сходня, 
+					br
+					| ул. Некрасова, 2
+		.nav-inner
+			.toggle
+				i.fa.fa-tasks(aria-hidden='true')
+			.sitenav
+				.menu-menyu-lendingov-container
+					ul#menu-menyu-lendingov-1.menu
+						li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-27.current_page_item.menu-item-34
+							a(href='index.html' aria-current='page') Дуб
+						li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-35
+							a(href='termoderevo/index.html') Термодерево
+						li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-36
+							a(href='orex/index.html') Орех
+		section.header-block.section
+			.header-block__img-wrap
+				img(src="img/header-block-1.jpg", alt="")
+			.container
+				.section-title
+					h1 PL-collection
+					p ЭКСКЛЮЗИВНАЯ КОЛЛЕКЦИЯ ТРЕХСЛОЙНОЙ ИНЖЕНЕРНОЙ ДОСКИ ИЗ&nbsp;ДУБА С&nbsp;ОБРАБОТКОЙ ДОСКИ, ПОВТОРЯЮЩЕЙ ПРИРОДНЫЕ ДЕФЕКТЫ И&nbsp;РУЧНЫЕ ОБРАБОТКИ ДЕРЕВА: ТРЕЩИНЫ, СЛЕДЫ ОТ&nbsp;РАБАНКА, СЛЕДЫ ОТ&nbsp;ПИЛЫ И&nbsp;ТЕРМООБРАБОТКА. <br> ПОДОБРАННЫЕ ЦВЕТОВЫЕ РЕШЕНИЯ ДЛЯ КАЖДОГО ВИДА ОБРАБОТКИ, МАКСИМАЛЬНО РАСКРЫВАЮТ КРАСОТУ КАЖДОЙ ПЛАШКИ.
+
+		+typeOfMaterial(`Трещины`, `Трещины придают рустикальный вид полу. Используется сердцевина дуба с&nbsp;максимальным колличеством трещин и&nbsp;сучков, создавая превобытный, аутентичный вид помещения.`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T1`, `crack-1.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 55 000,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T2`, `crack-2.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T3`, `crack-3.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+
+		+typeOfMaterial(`Рубанок`, `Продольные волны, выполненные рубанком, напоминают песчаное дно океана. Каждая доска делается вручную и&nbsp;сохраняет неповторимый рельеф волн, сделанный специально для Вас.`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T1`, `plane-1.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 55 000,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T2`, `plane-2.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T3`, `plane-3.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T1`, `plane-4.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 55 000,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T2`, `plane-5.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T3`, `plane-6.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+		
+		+typeOfMaterial(`Царапины`, `Поперечные царапины создают вид недоработанной доски. Используя патину отличаемую от&nbsp;цвета самой доски, мы&nbsp;создаем неповторяющие сочетания цветов.`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T1`, `scratches-1.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 55 000,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T2`, `scratches-2.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T3`, `scratches-3.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T1`, `scratches-4.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 55 000,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T2`, `scratches-5.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T3`, `scratches-6.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+
+		+typeOfMaterial(`Термообработка`, `Дуб после термообработки приобретает неповторимые оттенки и&nbsp;благородность цвета. Их&nbsp;невозможно повторить с&nbsp;помощью обычной тонировки доски.`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T1`, `heat-treatment-1.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 55 000,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T2`, `heat-treatment-2.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T3`, `heat-treatment-3.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T1`, `heat-treatment-4.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 55 000,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T2`, `heat-treatment-5.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+			+typeOfMaterial-item(`c`, `#`, `PL-T3`, `heat-treatment-6.jpg`, `hover-block-1.svg`, `hover-block-2.svg`, `hover-block-3.svg`, `от 5 500,00 руб`)
+
+
+		//- script(type='text/javascript' src='wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp')
+		//- script(type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1')
+		//- script(type='text/javascript' src='https://api-maps.yandex.ru/2.1/?lang=ru_RU&ver=5.4.2')
+		//- script(type='text/javascript' src='wp-includes/js/wp-embed.min7661.js?ver=5.4.2')
+		//- // Instagram Feed JS
+		//- script(type='text/javascript').
+		//- 	var sbiajaxurl = "https://spilfloors.ru/wp-admin/admin-ajax.php";
+		//- script(type='text/javascript').
+		//- 	/* <![CDATA[ */
+		//- 	var wpcf7 = { "apiSettings": { "root": "https:\\/\/spilfloors.ru\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" } };
+		//- 	/* ]]> */
+		//- script(type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scriptsb62d.js?ver=5.1.6')
+		//- script(type='text/javascript' src='wp-content/plugins/easy-fancybox/js/jquery.fancybox.min4271.js?ver=1.3.24')
+		//- script(type='text/javascript').
+		//- 	var fb_timeout, fb_opts = { 'overlayShow': true, 'hideOnOverlayClick': true, 'showCloseButton': true, 'margin': 20, 'centerOnScroll': false, 'enableEscapeButton': true, 'autoScale': true };
+		//- 	if (typeof easy_fancybox_handler === 'undefined') {
+		//- 	var easy_fancybox_handler = function () {
+		//- 	jQuery('.nofancybox,a.wp-block-file__button,a.pin-it-button,a[href*="pinterest.com/pin/create"],a[href*="facebook.com/share"],a[href*="twitter.com/share"]').addClass('nolightbox');
+		//- 	/* IMG */
+		//- 	var fb_IMG_select = 'a[href*=".jpg"]:not(.nolightbox,li.nolightbox>a),area[href*=".jpg"]:not(.nolightbox),a[href*=".jpeg"]:not(.nolightbox,li.nolightbox>a),area[href*=".jpeg"]:not(.nolightbox),a[href*=".png"]:not(.nolightbox,li.nolightbox>a),area[href*=".png"]:not(.nolightbox),a[href*=".webp"]:not(.nolightbox,li.nolightbox>a),area[href*=".webp"]:not(.nolightbox)';
+		//- 	jQuery(fb_IMG_select).addClass('fancybox image');
+		//- 	var fb_IMG_sections = jQuery('.gallery,.wp-block-gallery,.tiled-gallery,.wp-block-jetpack-tiled-gallery');
+		//- 	fb_IMG_sections.each(function () { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+		//- 	jQuery('a.fancybox,area.fancybox,li.fancybox a').each(function () { jQuery(this).fancybox(jQuery.extend({}, fb_opts, { 'transitionIn': 'elastic', 'easingIn': 'easeOutBack', 'transitionOut': 'elastic', 'easingOut': 'easeInBack', 'opacity': false, 'hideOnContentClick': false, 'titleShow': true, 'titlePosition': 'over', 'titleFromAlt': true, 'showNavArrows': true, 'enableKeyboardNav': true, 'cyclic': false })) });
+		//- 	};
+		//- 	jQuery('a.fancybox-close').on('click', function (e) { e.preventDefault(); jQuery.fancybox.close() });
+		//- 	};
+		//- 	var easy_fancybox_auto = function () { setTimeout(function () { jQuery('#fancybox-auto').trigger('click') }, 1000); };
+		//- 	jQuery(easy_fancybox_handler); jQuery(document).on('post-load', easy_fancybox_handler);
+		//- 	jQuery(easy_fancybox_auto);
+		
+		//- script(type='text/javascript' src='wp-content/plugins/easy-fancybox/js/jquery.easing.min330a.js?ver=1.4.1')
+		//- script(type='text/javascript').
+		//- 	/* <![CDATA[ */
+		//- 	var php_vars = { "ajax_url": "https:\\/\/spilfloors.ru\/wp-admin\/inc\/customizer.php", "price_1": "3600", "price_2": "3900", "price_3": "4200", "price_4": "4500", "price_5": "5500", "price_6": "6200", "price_511": "0", "price_611": "0", "price_7": "4900", "price_8": "5300", "price_9": "5600", "price_10": "6300", "price_11": "6500", "price_12": "7400", "price_110": "0", "price_120": "0", "price_13": "3400", "price_14": "3500", "price_15": "3800", "price_16": "4000", "price_17": "4700", "price_18": "5400", "price_19": "5800", "price_20": "6000", "price_21": "4500", "price_22": "4700", "price_23": "4800", "price_24": "5500", "price_25": "5600", "price_26": "6300", "price_250": "0", "price_260": "0", "price_27": "3000", "price_28": "3100", "price_29": "3600", "price_30": "3800", "price_31": "3700", "price_32": "4000", "price_33": "4100", "price_34": "4200", "price_35": "4000", "price_36": "4100", "price_37": "4200", "price_38": "5600", "price_39": "6000", "price_40": "4300", "price_41": "4500", "price_42": "5000", "price_43": "4400", "price_44": "4700", "price_45": "4900", "price_46": "5400", "price_47": "4000", "price_48": "4200", "price_49": "4300", "price_50": "5000", "price_51": "3500", "price_52": "3700", "price_53": "3900", "price_54": "4000", "price_55": "4100", "price_56": "4400", "price_57": "4700", "price_58": "5100", "price_59": "3800", "price_60": "3900", "price_61": "4200", "price_62": "4500", "price_63": "3400", "price_64": "3500", "price_65": "3700", "price_66": "3800", "price_67": "3700", "price_68": "4000", "price_69": "4150", "price_70": "4200", "price_71": "0", "price_72": "0", "price_73": "0", "price_74": "5700", "price_75": "0", "price_76": "4800", "price_77": "4800", "price_78": "4800", "price_79": "0", "price_80": "0", "price_81": "4800", "price_82": "4800", "price_83": "4800", "price_84": "0", "price_85": "0", "price_86": "5100", "price_87": "5100", "price_88": "5100", "price_89": "0", "price_90": "0", "price_91": "5100", "price_92": "5100", "price_93": "5100", "price_94": "0", "price_95": "4200", "price_96": "4600", "price_97": "7700", "price_98": "8100", "price_pihta": "3300" };
+			/* ]]> */
+		//- script(type='text/javascript' src='wp-content/themes/spilfloors/js/custom3bf9.js?ver=12000')
+		//- script(type='text/javascript').
+		//- 	/* <![CDATA[ */
+		//- 	var sb_instagram_js_options = { "font_method": "svg", "resized_url": "https:\\/\/spilfloors.ru\/wp-content\/uploads\/sb-instagram-feed-images\/", "placeholder": "https:\/\/spilfloors.ru\/wp-content\/plugins\/instagram-feed\/img\/placeholder.png" };
+			/* ]]> */
+		//- script(type='text/javascript' src='wp-content/plugins/instagram-feed/js/sbi-scripts.min21bb.js?ver=2.5.4')
+
+		//- script(type='text/javascript' src='custom.js')
