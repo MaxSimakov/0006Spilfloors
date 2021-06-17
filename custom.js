@@ -45,3 +45,12 @@ const swiperDetails = new Swiper('.details__slider--js', {
 	// },
 });
 
+$(document).ready(function () {
+	$("[data-fancybox]").fancybox({
+		mobile: {
+			clickSlide: "close"
+		},
+	});
+});
+
+
