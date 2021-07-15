@@ -810,7 +810,7 @@
 		display: none;
 		@media (min-width: 576px) {
 			display: flex;
-			align-items: center;
+			align-items: flex-start;
 			-webkit-box-flex: 0;
 			-ms-flex: 0 0 17.4%;
 			flex: 0 0 17.4%;
