@@ -969,16 +969,7 @@
 }
 .details__table table thead {
 		position: relative;
-}
-.details__table table thead::before {
-		content: "";
-		position: absolute;
-		width: 100%;
-		height: calc(100% + 4px);
-		left: 0px;
-		bottom: -2px;
 		background-color: #b1b1b1;
-		z-index: 5;
 }
 .details__table table th,
 .details__table table td {
